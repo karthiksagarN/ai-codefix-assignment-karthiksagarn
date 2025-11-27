@@ -1,0 +1,15 @@
+SQL Injection Prevention Guidelines:
+
+1. Use Parameterized Queries (Prepared Statements):
+   Never concatenate user input directly into SQL strings.
+   Use placeholders (e.g., ?, %s, :name) provided by your database driver.
+
+2. Input Validation:
+   Validate all user inputs against a strict allowlist (e.g., alphanumeric only).
+   Reject unexpected characters or formats.
+
+3. Least Privilege:
+   Ensure the database user has only the minimum necessary permissions.
+
+4. ORM Usage:
+   Prefer using an ORM (Object-Relational Mapping) library which handles escaping automatically.

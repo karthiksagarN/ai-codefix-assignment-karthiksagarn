@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+transformers
+torch
+sentence-transformers
+numpy
+pydantic
+requests
+pytest
+einops
+accelerate

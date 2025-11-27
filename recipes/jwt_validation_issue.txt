@@ -1,0 +1,21 @@
+JWT Validation Issues – Security Guidance
+
+Never trust a JWT without proper signature verification.
+
+Always validate the algorithm; reject alg: none or mismatched algorithms.
+
+Validate the token issuer (iss) and audience (aud).
+
+Validate token expiration (exp) and issued-at (iat).
+
+Reject tokens that use weak or deprecated signing algorithms.
+
+Store signing keys securely and rotate them periodically.
+
+Use proper key type: HS256 for symmetric secrets, RS256/ES256 for asymmetric keys.
+
+Enforce strict JSON parsing; avoid automatic deserialization issues.
+
+Do not store sensitive data in JWT payload; payload is not encrypted.
+
+Implement short-lived tokens and refresh token rotation.

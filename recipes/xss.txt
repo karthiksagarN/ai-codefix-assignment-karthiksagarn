@@ -1,0 +1,14 @@
+Cross-Site Scripting (XSS) Prevention Guidelines:
+
+1. Output Encoding/Escaping:
+   Convert special characters into their HTML entity equivalents (e.g., < to &lt;) before rendering user input in the browser.
+   Use context-aware encoding (HTML, JavaScript, CSS, URL).
+
+2. Content Security Policy (CSP):
+   Implement CSP headers to restrict the sources from which scripts can be loaded.
+
+3. Input Validation:
+   Validate input on arrival. Ensure it matches expected types and formats.
+
+4. Modern Frameworks:
+   Use modern frontend frameworks (React, Vue, Angular) which automatically escape content by default.

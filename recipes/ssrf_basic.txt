@@ -1,0 +1,21 @@
+SSRF – Server-Side Request Forgery Guidance
+
+Never allow user input to directly control outbound URLs.
+
+Implement strict allowlists for domains and IP ranges.
+
+Block internal IP ranges (127.0.0.0/8, 10.0.0.0/8, 169.254.0.0/16, 192.168.0.0/16, etc.).
+
+Disable redirection or validate redirect destinations strictly.
+
+Prevent access to metadata endpoints (e.g., AWS Instance Metadata 169.254.169.254).
+
+Avoid fetching arbitrary user-provided URLs using curl, requests, etc.
+
+Strip harmful protocols (file://, gopher://, dict://, ftp://).
+
+Use DNS pinning or multiple DNS-resolutions to avoid poisoning.
+
+Enforce outbound request timeouts and proper error handling.
+
+Log and monitor abnormal outbound request patterns.
