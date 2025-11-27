@@ -97,9 +97,7 @@ The service loads security guidelines from `recipes/*.txt`. When a request comes
 - `tests/`: Unit tests
 - `test_local.py`: Integration test script
 
-## EnterSoft Assignment
-Name: Karthik Sagar Nallagula
-Email: karthik.sagar@gmail.com
-LinkedIn: https://linkedin.com/in/karthik-sagar-nallagula
-Portfolio: https://karthiknallagula.com
-Github: https://github.com/karthiksagarn# ai-codefix-assignment-karthiksagarn
+## ENTER SOFT SECURITY – TECHNICAL INTERNSHIP ASSIGNMENT
+*Name:* **Nallagula Karthik Sagar**  
+*Email: karthik.sagar@gmail.com*  
+[GitHub](https://github.com/karthiksagarn) | [LinkedIn](https://linkedin.com/in/karthik-sagar-nallagula) | [Portfolio](https://karthiknallagula.com/)
